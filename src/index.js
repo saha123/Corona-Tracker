@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './Components/Statewisedata/statewise.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Statewise from './Components/Statewisedata/statewise';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Statewise />
   </React.StrictMode>,
   document.getElementById('root')
 );

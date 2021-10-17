@@ -1,0 +1,22 @@
+*
+{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.dark
+{
+	background-color: #333333;
+    color: #fff;
+}
+
+tbody tr .green:hover
+{
+	background-color : green;
+	color: #fff !important;
+}
+
+tbody tr .red:hover
+{
+	background-color : red;
+	color: #fff !important;
+}
